@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <h2>Section 1</h2>
+    <!--Jumbotron-->
+    <div class=" mx-3 my-4 h-100 p-5 text-bg-dark rounded-3">
+        <h2>Este es mi jumbotron</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus provident esse facilis eligendi nemo magnam? Laudantium nisi ad culpa! Iste tempore ipsam voluptatem nesciunt necessitatibus. Ex atque odit quo dolores?</p>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+    
+</div>
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sint pariatur voluptatem fuga recusandae ipsam sunt expedita, obcaecati inventore dignissimos dolores repellat hic impedit in facilis doloribus aut officia saepe!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2>Section 2</h2>
+    <!--Form-->
+    <div class="container w-50">
+        <form action=""></form>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+        <label for="numero-telefono" class="form-label">Numero de telefono</label>
+        <input type="number" class="form-control" id="numero-telefono" placeholder="Enter your phone number" min="0" max="9" name="numero">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" value="submit">Enviar</button>
+    </form>
+    
+    </div>
+    
+    <h2>Section 3</h2>
+    <!--Tarjerta de perfil-->
+    <div class="container w-50 mt-3 mb-5">
+    <div class="card" style="width: 18rem;">
+        <img src="https://lh3.googleusercontent.com/XQ0yO-sR_IiNy2rBkurIOPqdvoVcwa_U0WHzNtWG4ylzDZGGB5OYgqqNJ01iZWmQgeuInrqJXCZ51RjCEWFIhutIy72kYv-TrQBkZX4J1_Cjk7GfvYsDx_02sDflmR-d3fsb2EufPN0Uvwg298-hMfzzqbFlTzAvha9bwZoKdKKo-xOrgFT1_Xs09zVccwFbCFfjapVvXUJnOJ3Q7BgMD6qKIVUix-q0A5R1uqu3FoKyMgnMmUN5NSmrVqpedpk7GxOWTA7n3q8I8V8fl9H_LUxWMpSsfJT82k1npYRoWSdS9fI1SdQeZTiwlq__ObUOWI3Fo20NTaFzoUhm1rYW1DecaW7nIVTwsbkm9QUOYozwKizDRvbVlZvJQznmPBNDaaAKl14UUSwAcqsWwudBMZI4p0fCEUgoZj9fGvA-ZXNEwrBoLWnK9QEUGLqGNqp4INP1rsZXM3jappVKUIecplzoFfylHc1j_DDCskZ6IR20k5GTzolX06Mjm01B7Azf5cHJ_YDFGug-NSm_5AKhXTquqZWdB81Nq8D_1mBq0EBhCKEAxYsuZd7nOf5jo3QsjYxxz5GXNEqiBhsN3siLlm_G6ky_30AOlWigUF_ZsJNHAs8ngikVrdXqWmV1Aa10HwZE5NNc6cjamG167qnWMpwNSxahIi-UMVRytlmyEPoi9ceUg7Kg2miVZPopqxPuDZdwlSoRWGJZy5SDOwXvDNtrj5rEr_xUx4VvhsMs4mO7EwXcr985L66REW2tw-vMGKpftR4VlHRjbXsltkhRZcfHjLDLTy76MFZC9S1ZVDUBa_MRjsiELFuyCGmVTGswnp3wOxBgSPM8KxOtXEgN7z50iTOMFIIT-5_YYk8cWLyfuo1PwkRAgMvUffGPVD_e9rcrOGVqHvOMb0m8kiJSgBxB8wf4VtweYmIxHZR4=s640-no?authuser=0" class="card-img-top" alt="Foto de Nahuel">
+        <div class="card-body">
+          <h5 class="card-title">Nahuel Benitez</h5>
+          <p class="card-text">En proceso de desarrollador web full stack.</p>
+
+          <div class="card-footer bg-transparent"></div>
+          <a href="mailto:nahueljosebenitez@gmail.com" class="btn btn-primary">Contactame</a>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>
